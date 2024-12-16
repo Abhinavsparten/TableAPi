@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users Data Table</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <h1>Users Data Table</h1>
+
+    <div class="container">
+        <table id="Table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th class="sortable">
+                        Name 
+                        <button id="sort-name-asc" class="sort-button">🔼</button>
+                        <button id="sort-name-desc" class="sort-button">🔽</button>
+                    </th>
+                    <th>User Name</th>
+                    <th class="sortable">
+                        Email 
+                        <button id="sort-email-asc" class="sort-button">🔼</button>
+                        <button id="sort-email-desc" class="sort-button">🔽</button>
+                    </th>
+                    <th>Phone</th>
+                    <th>Website</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- rows will be here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
